@@ -3,7 +3,8 @@ Django command fpr wait for database
 """
 import time
 
-from psycopg2 import OperationalError as Psycopg2OpError  # Psycopg is the most popular PostgreSQL adapter used in  Python
+from psycopg2 import OperationalError as Psycopg2OpError
+# Psycopg is the most popular PostgreSQL adapter used in  Python
 
 from django.db.utils import OperationalError
 from django.core.management.base import BaseCommand

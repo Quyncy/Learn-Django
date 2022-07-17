@@ -7,10 +7,11 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
 from core import models
 
+
 class UserAdmin(BaseUserAdmin):
-    """Define the admin pages fpr user."""
+    """Define the admin pages for user."""
     ordering = ['id']
-    list_display = ['email','name']
+    list_display = ['email', 'name']
 
 
 admin.site.register(models.User, UserAdmin)
