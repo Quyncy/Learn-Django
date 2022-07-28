@@ -1,2 +1,2 @@
-# tutor-app-api
-Tutor App API
+# Learn Django
+
