@@ -1,3 +1,2 @@
-# recipe-app-api
-
-RESTAPI - Docker -Django - PostgreSQL
+# tutor-app-api
+Tutor App API
